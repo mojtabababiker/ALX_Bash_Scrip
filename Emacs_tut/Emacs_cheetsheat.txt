@@ -1,0 +1,52 @@
+#Moving around in bufferf:
+
+to move one Char forward => Controll+f
+to move one Char backword => Control+b
+to move one word foreward => Alt+f
+to move one word foreward => Alt+b
+to move one line down	  => Control+n
+to move one line up	  => Control+p
+to move to start of line  => Control+a
+to move to end of line	  => Control+e
+to move to previous sents => Alt+a
+to move ro next sentence  => Alt+e
+to move to start of Buffer=> Alt+<
+to move to end of Buffer  => Alt+>
+
+*NOTE: WE CAN USE 'CONTROL+U  FOLLWED BY #N' AND ANY COMMAND FROM ABOVE TO REBEAT IT #N TIMES:
+Example => C-u 4 Alt-b to go 4 words back..
+
+#Cutting(Killing) or Deletting text:
+
+to cut or delete to the end of line => Ctrl+k
+to cut or delete the next word 	    => Alt+d
+to cut or delete to end of sentence => Alt+k
+
+*NOTE: WE CAN USE 'CONTROL+U FOLLWED BY #N' AND ANY COMMAND FROM ABOVE TO REBEAT IT #N TIMES
+
+#Pasting(Yanking):
+to paste the last cut		=> Ctrl+y
+to replace the pasted cut with previously cut => Alt+y
+
+
+#Searching and finding:
+
+to do backward incremental search => Ctrl+i
+to do incremental search   	  => Ctrl+s
+to search for the most recently search => Ctrl+s Ctrl+s
+to search for the previous item in hestory => Ctrl+s Alt+p
+to exit search in search occurrence 	   => type RET
+to exit search or jump back to where search start => Ctrl+x Ctrl+x
+
+*NOTE: WE CAN NAVIGATE THE SEARCH RESULTS BY TYPPING Ctrl+s or Ctrl+i DEPENDING ON THE TYPE OF SEARCH.
+ 
+
+#Search and Replacement:
+
+to search for string and replace => Esc Shift+5
+to replace the current match	 => y
+to skip to next match  		 => n
+to exit without changing 	 => q
+to replace this match and quit 	 => .
+to replace all 	      	  	 => !
+

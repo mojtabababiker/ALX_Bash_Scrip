@@ -1,0 +1,49 @@
+#!/usr/bin/bash
+
+#get the first number from user
+echo "Enter the 1st number"
+read num1
+#get the second number from user
+echo "Enter the 2nd number"
+read num2
+#get the third number from user
+echo "Enter the third number"
+read num3
+
+# set the tempo variable for the less num
+temp=0
+
+# compair and change between the nums
+
+if [ $num1 -gt $num2 ]
+then
+    echo "in the first if"
+
+    	temp=$num1
+	num1=$num2
+	num2=$temp
+
+	if [ $num2 -gt $num3 ]
+	then
+	    echo "in the second if"
+		temp=$num2
+		num2=$num3
+		num3=$temp
+		if [ $num2 -lt $num1 ]
+		then
+		    temp=$num2
+		    num2=$num1
+		    num1=$temp
+
+		fi
+	fi
+elif [ $num1 -gt $num3 ]
+then
+     echo "in elif"
+
+	temp=$num1
+	num1=$num3
+	num3=$temp
+
+fi
+echo $num1 $num2 $num3

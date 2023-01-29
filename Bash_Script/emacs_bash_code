@@ -1,0 +1,32 @@
+
+#! /usr/bin/bash
+echo "Welcome to your firdt bash scritp"
+echo "Enter your user name"
+i=0
+passw="12345"
+while [ $i -eq 0 ] 
+
+do
+ read username 
+ if [ "$username" = "mojtaba" ] 
+  then
+	echo "Helo $username"
+	echo "Please enter your password"
+	read password
+	#echo $passworde
+	if [[ $password -eq $passw ]]
+	  then
+	      echo "Access Allowed.."
+	      #move from the current dir to our first repo dir
+	     cd /alx-pre_course/
+	     break
+	  else
+	     echo "Access Denied"
+	     continue
+	fi
+	
+  else
+	echo "WRONG user name..
+       		$username is not in our user list"
+ fi
+done
