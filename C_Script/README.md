@@ -1,9 +1,9 @@
 # C Interview Code
-**This file contains some of the C programs, that normaly asked in interview**
-**you can find Most of the the proplems below in [Leetcode](https://leetcode.com/problemset/all/)**
+**This folder contains some of the C programs, that normaly asked in interviews**
+**you can find Most of the problems below [here](https://leetcode.com/problemset/all/)**
 
 ## Array01
-   **creating array of numbers and give the user the option to determine the size of it**
+   **Creating array of numbers and give the user the option to determine the size of it**
 
 ## Array
   **Data manipultion using Array:**
